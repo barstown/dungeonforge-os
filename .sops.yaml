@@ -1,0 +1,6 @@
+---
+# https://github.com/getsops/sops?tab=readme-ov-file#513settings
+creation_rules:
+  - path_regex: cosign.key
+    age: >-
+      age1fvg58j3jk594pujqq3ngl6kqlfw7zam4mfs94cn3rag2zcfgk9sqzf833r
