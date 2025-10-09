@@ -1,0 +1,10 @@
+(?i)EditorConfig
+(?i)Todo
+[Aa]nsible
+Active Directory
+(?i)git
+GitHub
+Jinja
+Kerberos
+Markdown
+Todo Tree
