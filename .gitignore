@@ -1,5 +1,6 @@
 _build_*
 _build-*/**
 .decrypted*
+cosign.enc.key
 cosign.key
 output
