@@ -160,9 +160,9 @@ Once the workflow is done, you'll find the disk images either in your S3 bucket 
 
 This template comes with the necessary tooling to index your image on [artifacthub.io](https://artifacthub.io). Use the `artifacthub-repo.yml` file at the root to verify yourself as the publisher. This is important to you for a few reasons:
 
-- The value of artifacthub is it's one place for people to index their custom images, and since we depend on each other to learn, it helps grow the community. 
+- The value of artifacthub is it's one place for people to index their custom images, and since we depend on each other to learn, it helps grow the community.
 - You get to see your pet project listed with the other cool projects in Cloud Native.
-- Since the site puts your README front and center, it's a good way to learn how to write a good README, learn some marketing, finding your audience, etc. 
+- Since the site puts your README front and center, it's a good way to learn how to write a good README, learn some marketing, finding your audience, etc.
 
 [Discussion Thread](https://universal-blue.discourse.group/t/listing-your-custom-image-on-artifacthub/6446)
 
@@ -258,3 +258,7 @@ These are images derived from this template (or similar enough to this template)
 - [Homer](https://github.com/bketelsen/homer/)
 - [Amy OS](https://github.com/astrovm/amyos)
 - [VeneOS](https://github.com/Venefilyn/veneos)
+
+## test
+
+Comment to test changes.
