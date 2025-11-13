@@ -258,7 +258,3 @@ These are images derived from this template (or similar enough to this template)
 - [Homer](https://github.com/bketelsen/homer/)
 - [Amy OS](https://github.com/astrovm/amyos)
 - [VeneOS](https://github.com/Venefilyn/veneos)
-
-## test
-
-Comment to test changes.
