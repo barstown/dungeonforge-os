@@ -13,9 +13,6 @@ set -ouex pipefail
 dnf5 install -y \
   fastfetch \
   tmux \
-  ublue-brew \
-  ublue-fastfetch \
-  ublue-setup-services \
   vim
 
 # Use a COPR Example:
@@ -25,6 +22,13 @@ dnf5 install -y \
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
+dnf5 copr -y enable ublue-os/packages
+dnf5 install -y \
+  ublue-brew \
+  ublue-fastfetch \
+  ublue-setup-services \
+
+dnf5 copr -y disable ublue-os/packages
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
